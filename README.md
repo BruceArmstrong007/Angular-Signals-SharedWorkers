@@ -1,6 +1,23 @@
 # Angular-Signals-SharedWorkers
 Angular@next-v16  Trying out Shared Worker with Signals 
 # Signals
+![image](https://user-images.githubusercontent.com/48177059/223433983-46948dfe-ab88-4bab-ba35-6ab99e45bd09.png)
+
+# Goal :
+ To learn about Shared Workers (that share data between tabs and windows) and Signals that is going to be released in Angular V16
+
+# In This Example you will see : 
+  1.) Component of Angular Popping in and out of window with the help of portals 
+  2.) Same Application that can maintain its state across different windows with the help of ServiceWorker
+  3.) Usage of signals instead of Rxjs Subjects to Maintain State in UI.
+
+# Takeaway :
+  1.) SharedWorkers are supported in main desktop browsers and can be used share data across different tabs and windows, 
+   we can also create a common state management library that works with all frameworks and across windows as well
+   might need adoptor for different frameworks
+  2.) signals are just dope and exciting, first step from angular to eliminate NgZone
+
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0-next.2.
 
