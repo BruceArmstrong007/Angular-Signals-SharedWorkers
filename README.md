@@ -16,6 +16,9 @@ Angular@next-v16  Trying out Shared Worker with Signals
    might need adoptor for different frameworks
   2.) signals are just dope and exciting, first step from angular to eliminate NgZone
 
+# Known Issues
+  3.) Regarding portals, when i try to create a sub window , with ComponentPortal , the styles are not applied in new window,
+  unless it is also manually attached with selectors 
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0-next.2.
