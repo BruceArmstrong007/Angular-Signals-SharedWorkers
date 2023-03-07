@@ -1,7 +1,6 @@
 # Angular-Signals-SharedWorkers
 Angular@next-v16  Trying out Shared Worker with Signals 
-# Signals
-![image](https://user-images.githubusercontent.com/48177059/223433983-46948dfe-ab88-4bab-ba35-6ab99e45bd09.png)
+# Signals![image](https://user-images.githubusercontent.com/48177059/223436371-67e50bec-8aa7-4a61-afb1-15e4e148d963.png)
 
 # Goal :
  To learn about Shared Workers (that share data between tabs and windows) and Signals that is going to be released in Angular V16
