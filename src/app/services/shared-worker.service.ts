@@ -1,4 +1,4 @@
-import { Injectable,signal,NgZone, effect } from '@angular/core';
+import { Injectable,signal, NgZone } from '@angular/core';
 
 @Injectable({
   providedIn: 'root'
@@ -12,10 +12,11 @@ export class SharedWorkerService {
     setInterval(() => {
       this.count.set(this.count()+1);
     }, 1000);
+
     this.sharedWorker = new SharedWorker('/assets/app.worker.js');
 
-    this.sharedWorker.port.onmessage = async ({data}) => {
-      this.zone.run(async()=> await this.message.set(data));
+    this.sharedWorker.port.onmessage =  ({data}) => {
+      this.zone.run(()=>  this.message.set(data));
     };
 
     this.sharedWorker.port.start();

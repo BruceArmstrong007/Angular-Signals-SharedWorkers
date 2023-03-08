@@ -1,6 +1,6 @@
 import { Component,  inject } from '@angular/core';
 import { JsonPipe } from '@angular/common';
-import { SharedWorkerService } from 'src/app/services/shared-worker.service';
+import { SharedWorkerService } from './../../services/shared-worker.service';
 
 @Component({
   selector: 'app-description',
